@@ -1,0 +1,41 @@
+body {
+    padding: 0 ;
+    margin: 0 ;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 1 em ;
+    line-height: 150% ;
+    color: #777777 ;
+    background: #ffffff ;
+}
+.name {
+    position: fixed ;
+    height: 75px ;
+    background: red ;
+    margin: 0px ;
+    top: 10% ;
+    left: 10%
+}
+.about {
+    position: fixed ;
+    height: 75px ;
+    background: red ;
+    margin: 0px ;
+    top: 10% ; 
+    right: 30% ;
+}
+.portfolio {
+    position: fixed ;
+    height: 75px ;
+    background: red ;
+    margin: 0px ;
+    top: 10% ;
+    right: 20% ;
+}
+.contact {
+    position: fixed ;
+    height: 75px ;
+    background: red ;
+    margin: 0px ;
+    top: 10% ; 
+    right: 10% ;
+}
