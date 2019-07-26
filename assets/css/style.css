@@ -2,9 +2,9 @@
 body {
     padding: 0 ;
     margin: 0 ;
-    font-family: Arial, Helvetica, sans-serif ;
-    font-size: 1 em ;
     line-height: 150% ;
+    font-size: 1 em ;
+    font-family: Arial, Helvetica, sans-serif ;
     color: #777777 ;
     background: #ffffff ;
 }
@@ -13,55 +13,49 @@ h1,h2 {
 
 }
 h1 {
-    float: left;
-    position: relative;
-    height: 50px;
     width: 20%;
+    text-align: center;
+    position: relative;
     padding: 15px;
-    margin: 0px;
-    margin-left: 10%;
     padding-top: 20px;
     padding-bottom: 0px;
+    margin: 0px;
+    margin-left: 10%;
+    height: 52px;
     font-size: 28px;
+    float: left;
     color: #ffffff;
-    text-align: center;
     background: #4aaaa5;
 }
 #links {
-    float: right;
-    width: 30%;
-    margin-right: 12.5%;
-    padding-top: 5px;
-}
-
-.about, .portfolio, .contact {
-    float: right;
-    position: relative;
-    padding: 20px 0px ;
-    margin: 0;
-    margin-bottom: 18 px;
-    font-size: 24px;
-    color: #4aaaa5;
+    width: 40%;
     text-align: right;
+    position: relative;
+    margin: 0;
+    margin-right: 12.5%;
+    font-size: 24px;
+    float: right;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
     background: #ffffff;
 }
 
 h2 {
-    float: left;
-    margin-left:10%;
     margin-right: 10%; 
+    margin-left:10%;
+    float: left;
 }
 p {
     padding: 2.5%;
-    float: right;
     margin: 0px;
-    margin-left: 10%;
     margin-right: 10%;
-    background: #ffffff;
+    margin-left: 10%;
+    float: right;
     border: 2px solid #cccccc;
+    background: #ffffff;
 }
 .container {
-    height:70px;
+    height:72px;
     border: 0px solid #cccccc;
     border-bottom-width: 2px;
     background: #ffffff;
@@ -78,14 +72,18 @@ a:active {
     color: #c4c4c4;
 }
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 65px;
     width: 100%;
-    background-color: #777777;
-    color: #ffffff;
     text-align: center;
-    border-top: 5px solid #4aaaa5;
+    position: fixed;
     padding-top: 3%;
+    left: 0;
+    height: 65px;
+    color: #ffffff;
+    bottom: 0;
+    border-top: 5px solid #4aaaa5;
+    background-color: #777777;
+}
+header {
+    border: 0 solid #cccccc;
+    border-bottom: 2px;
 }
