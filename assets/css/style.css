@@ -17,9 +17,10 @@ h1 {
     text-align: center;
     position: relative;
     padding: 20px 15px 0px 15px;
-    margin: 0px;
-    margin-left: 10%;
-    height: 52px;
+    margin: 0 0 -10% 10%;
+    /* margin-left: 10%; */
+    line-height: .8em;
+    height: 1.6em;
     font-size: 1.75em;
     float: left;
     color: #ffffff;
@@ -29,9 +30,9 @@ h1 {
     width: 40%;
     text-align: right;
     position: relative;
-    margin: 0;
-    margin-right: 10%;
-    font-size: 1.5em;
+    margin: .4em 10% 0 0;
+    /* margin-right: 10%; */
+    font-size: 1em;
     float: right;
     color: #4aaaa5;
     /* border-bottom: 2px solid #cccccc; */
@@ -59,7 +60,8 @@ img {
     margin-right: 2.5%;
 }
 .container {
-    height:72px;
+    height: 4em;
+    padding: 0 0 1px 0;
     border: 0px solid #cccccc;
     border-bottom-width: 2px;
     background: #ffffff;
