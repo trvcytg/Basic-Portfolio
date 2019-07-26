@@ -7,35 +7,84 @@ body {
     color: #777777 ;
     background: #ffffff ;
 }
-.name {
-    position: fixed ;
-    height: 75px ;
-    background: red ;
-    margin: 0px ;
-    top: 10% ;
-    left: 10%
+h1,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
+h1 {
+    float: left;
+    position: relative;
+    height: 72px;
+    width: 25%;
+    padding: 0px 0px ;
+    margin: 0;
+    margin-bottom: 20 px;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: left;
+    background: #4aaaa5;
+}
+#links {
+    float: right;
+    width: 30%;
+    padding-right: 2%;
+}
+
 .about {
-    position: fixed ;
-    height: 75px ;
-    background: red ;
-    margin: 0px ;
-    top: 10% ; 
-    right: 30% ;
+    float: right;
+    position: relative;
+    padding: 20px 0px ;
+    margin: 0;
+    margin-bottom: 18 px;
+    font-size: 24px;
+    color: #4aaaa5;
+    text-align: right;
+    background: #ffffff;
 }
 .portfolio {
-    position: fixed ;
-    height: 75px ;
-    background: red ;
-    margin: 0px ;
-    top: 10% ;
-    right: 20% ;
+    float: right;
+    position: relative;
+    padding: 20px 0px ;
+    margin: 0;
+    margin-bottom: 18 px;
+    font-size: 24px;
+    color: #4aaaa5;
+    text-align: right;
+    background: #ffffff;
 }
 .contact {
-    position: fixed ;
-    height: 75px ;
-    background: red ;
-    margin: 0px ;
-    top: 10% ; 
-    right: 10% ;
+    float: right;
+    position: relative;
+    padding: 20px 0px ;
+    margin: 0;
+    margin-bottom: 18 px;
+    font-size: 24px;
+    color: #4aaaa5;
+    text-align: right;
+    background: #ffffff;
+}
+h2 {
+    float: left;
+    margin-left:10%;
+    margin-right: 10%; 
+}
+p {
+    float: right;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container {
+    border: 0px solid #777777;
+    border-bottom-width: 2px;
+}
+a {
+    text-decoration: none;
+    color: #777777;
+
+}
+a:hover {
+    color: #5e5e5e;
+}
+a:active {
+    color: #c4c4c4;
 }
