@@ -9,25 +9,28 @@ body {
 }
 h1,h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+
 }
 h1 {
     float: left;
     position: relative;
-    height: 72px;
-    width: 25%;
-    padding: 0px 0px ;
-    margin: 0;
-    margin-bottom: 20 px;
+    height: 50px;
+    width: 20%;
+    padding: 15px;
+    margin: 0px;
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 0px;
     font-size: 28px;
     color: #ffffff;
-    text-align: left;
+    text-align: center;
     background: #4aaaa5;
 }
 #links {
     float: right;
     width: 30%;
-    padding-right: 2%;
+    margin-right: 10%;
+    padding-top: 5px;
 }
 
 .about {
@@ -70,10 +73,12 @@ h2 {
 }
 p {
     float: right;
+    margin: 0px;
     margin-left: 10%;
     margin-right: 10%;
 }
 .container {
+    height:70px;
     border: 0px solid #777777;
     border-bottom-width: 2px;
 }
