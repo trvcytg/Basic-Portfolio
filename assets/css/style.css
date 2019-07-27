@@ -40,17 +40,19 @@ h1 {
 }
 
 h2 {
-    margin-right: 10%; 
-    margin-left:12.5%;
+    width: 75%;
+    padding: 2.5%;
+    margin: 2% 10% 0 9.6%;
     font-size: 1.5em;
     float: left;
+    border: 2px solid #dddddd;
+    border-bottom: 0px;
+    background: #ffffff;
 }
 p {
     width: 75%;
     padding: 2.5%;
-    margin: 0px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin: 0 10% 0 10%;
     float: right;
     border: 2px solid #dddddd;
     background: #ffffff;
