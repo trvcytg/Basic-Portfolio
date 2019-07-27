@@ -41,17 +41,18 @@ h1 {
 
 h2 {
     margin-right: 10%; 
-    margin-left:10%;
+    margin-left:12.5%;
     font-size: 1.5em;
     float: left;
 }
 p {
+    width: 75%;
     padding: 2.5%;
     margin: 0px;
     margin-right: 10%;
     margin-left: 10%;
     float: right;
-    border: 2px solid #cccccc;
+    border: 2px solid #dddddd;
     background: #ffffff;
 }
 img {
@@ -87,9 +88,12 @@ footer {
     color: #ffffff;
     bottom: 0;
     border-top: 5px solid #4aaaa5;
-    background-color: #777777;
+    background-color: #666666;
 }
 header {
     border: 0 solid #cccccc;
     border-bottom: 2px;
+}
+#TT, #TT:link, #TT:hover {
+    color: #ffffff;
 }
